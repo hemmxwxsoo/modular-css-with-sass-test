@@ -18,7 +18,8 @@ module.exports = {
       {
         test: /\.scss$/,
         loaders: [
-		  "@modular-css/webpack/loader"
+		  "@modular-css/webpack/loader",
+		  'sass-loader'
         ],
       },
     ],
